@@ -1,0 +1,48 @@
+*,
+	*::before,
+	*::after{
+		padding:0;
+		margin:0;
+		border:0;
+		box-sizing: border-box;}
+
+	a{
+		text-direction: none;
+	}
+	ul,ol,li{
+		list-style:none
+	}
+	img{
+		vertical-align: top
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-weight: inherit;
+		font-size: inherit;
+	}
+	html, body{
+		height: 100%;
+		line-height: 1;
+		font-size: 36px;
+		background-color: #333;
+		color: #fff;
+	}
+	.wrapper{
+		min-height: 100%;
+		display: flex;
+		flex-direction: column
+	}
+	header{
+		background-color: #888;
+		padding: 30px;
+		text-align: center;
+	}
+	main{
+		padding: 30px;
+		text-align: center;
+		flex: 1 1 auto;
+	}
+	footer{
+		background-color: #77608d;
+		padding: 30px;
+		text-align: center;
+	}
